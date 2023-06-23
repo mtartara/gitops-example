@@ -16,7 +16,7 @@ spec:
    spec: # mongodb deployment spec
      containers:
        - name: mongodb-container
-         image: mongo # mongo image name
+         image: mongo:latest # mongo image name
          ports: # mongodb container ports
          - containerPort: 27017
          env: # mongodb container env variables
