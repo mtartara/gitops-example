@@ -5,7 +5,7 @@ metadata:
 spec:
  selector:
    app: mongo-express
- type: clusterIP
+ type: ClusterIP
  ports:
    - protocol: TCP
      port: 8081
